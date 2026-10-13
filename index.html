@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>JavaScript Assignments &amp; Capstone Project</title>
+  <style>
+    :root{--bg:#0b1020;--panel:#141d33;--line:#2b3b5c;--text:#edf2ff;--muted:#a8b4d0;--accent:#75e0c2}
+    *{box-sizing:border-box}
+    body{margin:0;min-height:100vh;padding:40px 18px;color:var(--text);font:16px/1.55 system-ui,-apple-system,"Segoe UI",sans-serif;background:radial-gradient(ellipse at top,#1b3150,var(--bg) 65%) fixed}
+    main{width:min(900px,100%);margin:auto}
+    .eyebrow{color:var(--accent);font-weight:700;letter-spacing:.14em;text-transform:uppercase;font-size:.75rem}
+    h1{margin:.3rem 0 .5rem;font-size:clamp(1.8rem,5vw,2.8rem);line-height:1.1}
+    p{color:var(--muted)}
+    .hero{display:block;text-decoration:none;color:inherit;background:var(--panel);border:1px solid var(--accent);border-radius:16px;padding:24px;margin:24px 0;box-shadow:0 14px 40px #0005;transition:transform .15s}
+    .hero:hover{transform:translateY(-2px)}
+    .hero h2{margin:.2rem 0;color:var(--accent)}
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:12px}
+    .card{display:block;text-decoration:none;color:var(--text);background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:16px;transition:border-color .15s}
+    .card:hover,.card:focus-visible{border-color:var(--accent);outline:none}
+    .card small{display:block;color:var(--muted);margin-top:4px}
+    h3{margin:28px 0 12px}
+    .note{margin-top:28px;padding:14px 16px;background:#0a1324;border-left:3px solid var(--accent);border-radius:8px;color:var(--muted);font-size:.92rem}
+    code{color:var(--accent)}
+  </style>
+</head>
+<body>
+<main>
+  <div class="eyebrow">Internship Submission</div>
+  <h1>JavaScript Assignments &amp; Capstone Project</h1>
+  <p>Six assignments covering core JavaScript concepts, plus an interactive Inventory &amp; Analytics Dashboard capstone built with plain HTML, CSS and JavaScript.</p>
+
+  <a class="hero" href="capstone/index.html">
+    <div class="eyebrow">Capstone Mini Project</div>
+    <h2>Interactive Product Inventory &amp; Analytics Dashboard →</h2>
+    <p>Add products, see categories, charts, tax/discount calculations and reports update live.</p>
+  </a>
+
+  <h3>Assignments</h3>
+  <div class="grid">
+    <a class="card" href="assignments/assignment-1-variables.html">1 · Variables &amp; Data Types<small>var, let, const, typeof</small></a>
+    <a class="card" href="assignments/assignment-2-operators-input.html">2 · Operators &amp; Input<small>prompt(), Number(), tip calculator</small></a>
+    <a class="card" href="assignments/assignment-3-conditionals.html">3 · Conditionals<small>if…else, switch, ternary</small></a>
+    <a class="card" href="assignments/assignment-4-loops.html">4 · Loops<small>for, while + break, do…while + continue</small></a>
+    <a class="card" href="assignments/assignment-5-functions-scope.html">5 · Functions &amp; Scope<small>arrow functions, defaults, ReferenceError</small></a>
+    <a class="card" href="assignments/assignment-6-arrays-objects.html">6 · Arrays &amp; Objects<small>forEach, filter, map</small></a>
+  </div>
+
+  <div class="note">Assignments 1–6 print their results in the browser <strong>Console</strong> (press <code>F12</code> → Console, then reload the page). The capstone also shows everything on the page itself.</div>
+</main>
+</body>
+</html>
